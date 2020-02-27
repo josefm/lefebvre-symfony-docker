@@ -1,0 +1,34 @@
+version: "3.7"
+
+services:
+    db:
+        image: mysql:8.0.17
+        command: --default-authentication-plugin=mysql_native_password
+        volumes:
+            - "db_data:/var/lib/mysql"
+        environment:
+            MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+            MYSQL_DATABASE: ${MYSQL_DATABASE}
+            MYSQL_USER: ${MYSQL_USER}
+            MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+        ports:
+            - 3306:3306
+    php:
+        build:
+            dockerfile: docker/php7-fpm/Dockerfile
+            context: .
+            args:
+                TIMEZONE: ${TIMEZONE}
+        volumes:
+            - ".:/var/www/symfony"
+    nginx:
+        build: 
+            dockerfile: docker/nginx/Dockerfile
+            context: .
+        ports:
+            - 80:80
+        volumes:
+            - ".:/var/www/symfony"
+
+volumes:
+    db_data:
