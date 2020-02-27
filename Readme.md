@@ -44,3 +44,36 @@ docker exec -it _container_name bash
 
 Open *http://dev.lefebvre.es/* in your browser :) 
 
+## 6. Develop project in container using docker-sync
+
+1. Install docker-sync utility
+
+*http://docker-sync.io/*
+
+2. Run docker-sync on the root folder of the project:
+
+```
+docker-sync
+```
+
+3. Rebuild the containers:
+
+```
+docker-compose up -d --build
+```
+
+4. Access the php container and run:
+
+```
+composer install
+```
+
+or whatever commands you need. 
+
+5. Open *http://dev.lefebvre.es/* in your browser :) 
+
+6. Using Visual Studio Code install the followgin extensions:
+
+*https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack*
+
+7. Reopen the project in Visual Studio Code

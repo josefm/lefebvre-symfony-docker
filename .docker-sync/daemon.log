@@ -1,0 +1,154 @@
+          ok  Starting native_osx for sync lef-sync
+          ok  lef-sync container still running, restarting unison in container
+     command  docker exec lef-sync supervisorctl restart unison
+unison: stopped
+unison: started
+          ok  starting initial sync of lef-sync
+     success  Sync container started
+     success  Showing unison logs from your sync container: lef-sync
+[2020-02-27 12:30:02 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:30:01.90 on 27 Feb 2020
+[2020-02-27 12:30:02 +0100] Sync Log:  [BGN] Copying .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-02-27 12:30:02 +0100] Sync Log:  [END] Copying .docker-sync/daemon.log
+[2020-02-27 12:30:02 +0100] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-02-27 12:30:02 +0100] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-02-27 12:30:02 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:30:01.90 on 27 Feb 2020
+[2020-02-27 12:30:02 +0100] Sync Log:  Synchronization complete at 12:30:01  (2 items transferred, 0 skipped, 0 failed)
+[2020-02-27 12:30:38 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:30:38.22 on 27 Feb 2020
+[2020-02-27 12:30:38 +0100] Sync Log:  [BGN] Updating file docker-compose.yml from /host_sync to /app_sync
+[2020-02-27 12:30:38 +0100] Sync Log:  [END] Updating file docker-compose.yml
+[2020-02-27 12:30:38 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:30:38.22 on 27 Feb 2020
+[2020-02-27 12:30:38 +0100] Sync Log:  Synchronization complete at 12:30:38  (1 item transferred, 0 skipped, 0 failed)
+[2020-02-27 12:31:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:31:46.88 on 27 Feb 2020
+[2020-02-27 12:31:47 +0100] Sync Log:  [BGN] Copying .dockerignore from /app_sync to /host_sync
+[2020-02-27 12:31:47 +0100] Sync Log:  [END] Copying .dockerignore
+[2020-02-27 12:31:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:31:46.89 on 27 Feb 2020
+[2020-02-27 12:31:47 +0100] Sync Log:  Synchronization complete at 12:31:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-02-27 12:32:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:32:06.52 on 27 Feb 2020
+[2020-02-27 12:32:06 +0100] Sync Log:  [BGN] Updating file var/cache/dev/App_KernelDevDebugContainer.php from /app_sync to /host_sync
+[2020-02-27 12:32:06 +0100] Sync Log:  [END] Updating file var/cache/dev/App_KernelDevDebugContainer.php
+[2020-02-27 12:32:06 +0100] Sync Log:  [BGN] Updating file var/cache/dev/App_KernelDevDebugContainer.php.meta from /app_sync to /host_sync
+[2020-02-27 12:32:06 +0100] Sync Log:  [END] Updating file var/cache/dev/App_KernelDevDebugContainer.php.meta
+[2020-02-27 12:32:06 +0100] Sync Log:  [BGN] Updating file var/cache/dev/App_KernelDevDebugContainer.xml.meta from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/App_KernelDevDebugContainer.xml.meta
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/annotations.php from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/annotations.php
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/0/1/rUbkxgEQwR0XhV3bfiLg from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/0/1/rUbkxgEQwR0XhV3bfiLg
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/4/Q/KPXYdqeRzua0EOrNDqFA from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/4/Q/KPXYdqeRzua0EOrNDqFA
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/7/E/JAVvxMVokZGBZ6Ddzp3A from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/7/E/JAVvxMVokZGBZ6Ddzp3A
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/7/S/KEv7tiejRT6A4OhnRV2A from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/7/S/KEv7tiejRT6A4OhnRV2A
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/9/B/b4-Ha88EMmb+KMXyb1lQ from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/9/B/b4-Ha88EMmb+KMXyb1lQ
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/9/C/CaI13IcPZyTFdag+2s4A from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/9/C/CaI13IcPZyTFdag+2s4A
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/A/S/iESPuFsTo905jDdxK3WQ from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/A/S/iESPuFsTo905jDdxK3WQ
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/B/G/GDm1XvMjw1954wdpgwBg from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/B/G/GDm1XvMjw1954wdpgwBg
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/C/D/1CMKw3NZ6bIAcmWEwXdQ from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/C/D/1CMKw3NZ6bIAcmWEwXdQ
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/D/I/nSmBIBnNIkH3mGsuVeJA from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/D/I/nSmBIBnNIkH3mGsuVeJA
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/D/W/yTvHASd9DbzX8Kbe83Bw from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/D/W/yTvHASd9DbzX8Kbe83Bw
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/E/I/3DJueZTkoMUTYyLMPhyw from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/E/I/3DJueZTkoMUTYyLMPhyw
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/F/A/ReLNw-ls+LpQaqFK0r+Q from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/F/A/ReLNw-ls+LpQaqFK0r+Q
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/F/P/Bf-UiPh1VBF5OIGb7qSg from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/F/P/Bf-UiPh1VBF5OIGb7qSg
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/G/0/iHlH2NQFu2+eciTE0qvg from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/G/0/iHlH2NQFu2+eciTE0qvg
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/I/C/AooVMnihfMDXwMxFAp2Q from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/I/C/AooVMnihfMDXwMxFAp2Q
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/I/N/r7ZcprxTODtFauZSTf8g from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/I/N/r7ZcprxTODtFauZSTf8g
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/J/D/SkTVd+BDclxVYoMmEK1w from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/J/D/SkTVd+BDclxVYoMmEK1w
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/J/P/SABWKXw0vZ8E6d5-Wkiw from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/J/P/SABWKXw0vZ8E6d5-Wkiw
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/K/E/KBx3nYJZcBgCuF8j5dVg from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/K/E/KBx3nYJZcBgCuF8j5dVg
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/K/R/XJPvn8NQc3rOnh24BAGA from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/K/R/XJPvn8NQc3rOnh24BAGA
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/L/E/lbcGwZJrqPf6JqX9rTkw from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/L/E/lbcGwZJrqPf6JqX9rTkw
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/M/T/FJXtn6FpNn1y-xLD7gbg from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/M/T/FJXtn6FpNn1y-xLD7gbg
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/N/N/xg2YeMP5JzC3-i9DCgdA from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/N/N/xg2YeMP5JzC3-i9DCgdA
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/N/Z/pI+8icK7XJU53xXO-d7A from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/N/Z/pI+8icK7XJU53xXO-d7A
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/O/7/Dx7r9JlImXb43X8Zbarg from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/O/7/Dx7r9JlImXb43X8Zbarg
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/O/S/bzw3Feb0iAddPXueBuSA from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/O/S/bzw3Feb0iAddPXueBuSA
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/P/C/fyh435ccbUNVwTXU-DJw from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/P/C/fyh435ccbUNVwTXU-DJw
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/Q/B/xBw5NSBSErkze1-8oo0A from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/Q/B/xBw5NSBSErkze1-8oo0A
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/Q/D/V8YnrcVsRu9kpLJtv+bQ from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/Q/D/V8YnrcVsRu9kpLJtv+bQ
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/Q/W/irR-RwDd8h1EMl9mtiBA from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/Q/W/irR-RwDd8h1EMl9mtiBA
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/T/3/wPBTBrRq1y2MfAdB0Utg from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/T/3/wPBTBrRq1y2MfAdB0Utg
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/T/T/p5CrwWHcLQwWFvmzne1Q from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/T/T/p5CrwWHcLQwWFvmzne1Q
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/U/R/e+yngEjCJ42rBR-5sO0w from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/U/R/e+yngEjCJ42rBR-5sO0w
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/U/T/K9ptn+cjf6+3cd1ufGig from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/U/T/K9ptn+cjf6+3cd1ufGig
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/V/C/pzdwdXajJ77E7ptef1yA from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/V/C/pzdwdXajJ77E7ptef1yA
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/V/I/1GS0Z5eN5jWHiDGkPKEQ from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/V/I/1GS0Z5eN5jWHiDGkPKEQ
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/V/M/dx-DhZ1B2lS0e3l6trsQ from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/V/M/dx-DhZ1B2lS0e3l6trsQ
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/W/J/R9wtZh40NX8Tf8geAVBA from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/W/J/R9wtZh40NX8Tf8geAVBA
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/X/L/jXrENiQOBbZDHL9DbUDw from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/X/L/jXrENiQOBbZDHL9DbUDw
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/pools/L0V1dtJHjC/Y/L/8s5sFJrxkVnR1s1fEjqA from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/pools/L0V1dtJHjC/Y/L/8s5sFJrxkVnR1s1fEjqA
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Copying var/cache/dev/pools/lRYxSey3zV from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Copying var/cache/dev/pools/lRYxSey3zV
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Updating file var/cache/dev/url_generating_routes.php.meta from /app_sync to /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Updating file var/cache/dev/url_generating_routes.php.meta
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Deleting var/cache/dev/pools/L0V1dtJHjC/+/W/A7VolQXzDR-TLtvozPqA from /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Deleting var/cache/dev/pools/L0V1dtJHjC/+/W/A7VolQXzDR-TLtvozPqA
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Deleting var/cache/dev/pools/L0V1dtJHjC/5/P/5XUiyfU5BuYeBSc2w3bQ from /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Deleting var/cache/dev/pools/L0V1dtJHjC/5/P/5XUiyfU5BuYeBSc2w3bQ
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Deleting var/cache/dev/pools/L0V1dtJHjC/L/-/rHoRsep-jE76Fw5I0syg from /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Deleting var/cache/dev/pools/L0V1dtJHjC/L/-/rHoRsep-jE76Fw5I0syg
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Deleting var/cache/dev/pools/L0V1dtJHjC/M/E/a27HgJ32zcSXzrYPskQw from /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Deleting var/cache/dev/pools/L0V1dtJHjC/M/E/a27HgJ32zcSXzrYPskQw
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Deleting var/cache/dev/pools/L0V1dtJHjC/O/9/Uxg6OTnml422yUXzZQdg from /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Deleting var/cache/dev/pools/L0V1dtJHjC/O/9/Uxg6OTnml422yUXzZQdg
+[2020-02-27 12:32:07 +0100] Sync Log:  [BGN] Deleting var/cache/dev/pools/L0V1dtJHjC/Y/S/b5bahugH4w8lWMr6vsJA from /host_sync
+[2020-02-27 12:32:07 +0100] Sync Log:  [END] Deleting var/cache/dev/pools/L0V1dtJHjC/Y/S/b5bahugH4w8lWMr6vsJA
+[2020-02-27 12:32:07 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:32:07.08 on 27 Feb 2020
+[2020-02-27 12:32:07 +0100] Sync Log:  Synchronization complete at 12:32:07  (53 items transferred, 0 skipped, 0 failed)
+[2020-02-27 12:34:52 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:34:52.15 on 27 Feb 2020
+[2020-02-27 12:34:52 +0100] Sync Log:  [BGN] Updating file Readme.md from /app_sync to /host_sync
+[2020-02-27 12:34:52 +0100] Sync Log:  [END] Updating file Readme.md
+[2020-02-27 12:34:52 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:34:52.16 on 27 Feb 2020
+[2020-02-27 12:34:52 +0100] Sync Log:  Synchronization complete at 12:34:52  (1 item transferred, 0 skipped, 0 failed)
+[2020-02-27 12:34:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:34:55.75 on 27 Feb 2020
+[2020-02-27 12:34:56 +0100] Sync Log:  [BGN] Updating file .git/sourcetreeconfig from /host_sync to /app_sync
+[2020-02-27 12:34:56 +0100] Sync Log:  [END] Updating file .git/sourcetreeconfig
+[2020-02-27 12:34:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:34:55.75 on 27 Feb 2020
+[2020-02-27 12:34:56 +0100] Sync Log:  Synchronization complete at 12:34:55  (1 item transferred, 0 skipped, 0 failed)
+[2020-02-27 12:34:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:34:57.76 on 27 Feb 2020
+[2020-02-27 12:34:58 +0100] Sync Log:  [BGN] Updating file .git/sourcetreeconfig from /host_sync to /app_sync
+[2020-02-27 12:34:58 +0100] Sync Log:  [END] Updating file .git/sourcetreeconfig
+[2020-02-27 12:34:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:34:57.77 on 27 Feb 2020
+[2020-02-27 12:34:58 +0100] Sync Log:  Synchronization complete at 12:34:57  (1 item transferred, 0 skipped, 0 failed)
+[2020-02-27 12:35:00 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:35:00.28 on 27 Feb 2020
+[2020-02-27 12:35:00 +0100] Sync Log:  [BGN] Updating file .git/sourcetreeconfig from /host_sync to /app_sync
+[2020-02-27 12:35:00 +0100] Sync Log:  [END] Updating file .git/sourcetreeconfig
+[2020-02-27 12:35:00 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:35:00.29 on 27 Feb 2020
+[2020-02-27 12:35:00 +0100] Sync Log:  Synchronization complete at 12:35:00  (1 item transferred, 0 skipped, 0 failed)

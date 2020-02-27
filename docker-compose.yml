@@ -20,7 +20,7 @@ services:
             args:
                 TIMEZONE: ${TIMEZONE}
         volumes:
-            - ".:/var/www/symfony"
+            - "lef-sync:/var/www/symfony"
     nginx:
         build: 
             dockerfile: docker/nginx/Dockerfile
@@ -28,7 +28,9 @@ services:
         ports:
             - 80:80
         volumes:
-            - ".:/var/www/symfony"
+            - "lef-sync:/var/www/symfony"
 
 volumes:
     db_data:
+    lef-sync:
+        external: true

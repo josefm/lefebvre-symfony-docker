@@ -1,0 +1,8 @@
+.env
+.env.local
+.env.dist
+.git
+.docker-sync
+var/cache/dev
+var/logs
+var/sessions
